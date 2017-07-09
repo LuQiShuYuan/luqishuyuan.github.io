@@ -9,8 +9,41 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style>
+    nav {
+      background-color: #009688;
+    }
+    nav ul a,
+    nav .brand-logo {
+      color: #FFFFFF;
+    }
+    .content {
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    }
+    .content .title {
+      padding: 24px;
+    }
+  </style>
 </head>
 <body>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo center">鹿栖书苑</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#推文">推文</a></li>
+      <li><a href="#活动">活动</a></li>
+      <li><a href="#会员">会员</a></li>
+      <li><a href="#联系我们">联系我们</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="#推文">推文</a></li>
+      <li><a href="#活动">活动</a></li>
+      <li><a href="#会员">会员</a></li>
+      <li><a href="#联系我们">联系我们</a></li>
+    </ul>
+  </div>
+</nav>
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -20,7 +53,7 @@
           <h5 class="header col s12 light">远离城市的喧嚣，回归大自然，鹿栖书苑，您的第二个家</h5>
         </div>
         <div class="row center">
-          <a href="tel:18222896292" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">联系我们</a>
+          <a href="tel:18234567890" class="btn-large waves-effect waves-light teal lighten-1">联系我们</a>
         </div>
         <br><br>
 
@@ -78,6 +111,7 @@
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
+
   <div class="container">
     <div class="section">
 
@@ -104,7 +138,153 @@
     <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+  <div class="row content" id="推文">
+    <h3 class="title">推文</h3>
+    <div class="col s12 m4">
+      <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img1.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">推文1<i class="material-icons right">more_vert</i></span>
+          <p>简单描述</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">推文标题<i class="material-icons right">close</i></span>
+          <p>推文内容，不定期的活动、住宿感受等.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m4">
+      <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img1.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">推文2<i class="material-icons right">more_vert</i></span>
+          <p>简单描述</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">推文标题<i class="material-icons right">close</i></span>
+          <p>推文内容，不定期的活动、住宿感受等.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m4">
+      <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img1.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">推文3<i class="material-icons right">more_vert</i></span>
+          <p>简单描述</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">推文标题<i class="material-icons right">close</i></span>
+          <p>推文内容，不定期的活动、住宿感受等.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row content" id="活动">
+    <h3 class="title">活动</h3>
+    <div class="col s12 m4">
+      <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img1.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">活动1<i class="material-icons right">more_vert</i></span>
+          <p>简单描述</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">活动标题<i class="material-icons right">close</i></span>
+          <p>活动介绍.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m4">
+      <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img1.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">活动2<i class="material-icons right">more_vert</i></span>
+          <p>简单描述</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">活动标题<i class="material-icons right">close</i></span>
+          <p>活动介绍.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m4">
+      <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img1.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">活动3<i class="material-icons right">more_vert</i></span>
+          <p>简单描述</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">活动标题<i class="material-icons right">close</i></span>
+          <p>活动介绍.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="会员">
+    <div class="card-content">
+      <h3>会员分类</h3>
+    </div>
+    <div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+        <li class="tab"><a class="active" href="#test4">青铜会员</a></li>
+        <li class="tab"><a href="#test5">白银会员</a></li>
+        <li class="tab"><a href="#test6">黄金会员</a></li>
+      </ul>
+    </div>
+    <div class="card-content grey lighten-4">
+      <div id="test4">
+        青铜会员的相关介绍，权益等等
+        <ul>
+          <ol>权益1</ol>
+          <ol>权益2</ol>
+          <ol>权益3</ol>
+          <ol>权益4</ol>
+        </ul>
+      </div>
+      <div id="test5">
+        白银会员的相关介绍，权益等等
+        <ul>
+          <ol>权益1</ol>
+          <ol>权益2</ol>
+          <ol>权益3</ol>
+          <ol>权益4</ol>
+        </ul>
+      </div>
+      <div id="test6">
+        黄金会员的相关介绍，权益等等
+        <ul>
+          <ol>权益1</ol>
+          <ol>权益2</ol>
+          <ol>权益3</ol>
+          <ol>权益4</ol>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer teal" id="联系我们">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
