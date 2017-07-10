@@ -2353,7 +2353,7 @@ if (jQuery) {
       var defaults = {
         menuWidth: 300,
         edge: 'left',
-        closeOnClick: false,
+        closeOnClick: true,
         draggable: true
       };
       options = $.extend(defaults, options);
